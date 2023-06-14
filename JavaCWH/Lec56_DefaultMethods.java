@@ -33,6 +33,10 @@ class MySmartphone extends MyPhone implements MyCamera,MyWifi{
     public void recordVideo(){
         System.out.println("Recording Video...");
     }
+    // We can also override the default method of interface and system will print default method of subclass.
+    // public void recordIn4k(){
+    //     System.out.println("Recording in 4k from subclass...");
+    // }
     public String[] getNetworks(){
         System.out.println("Getting network information : ");
         String[] networkList = {"Ntwk1","Ntwk2","Ntwk3"};
