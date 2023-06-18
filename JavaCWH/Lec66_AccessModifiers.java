@@ -21,5 +21,17 @@ public class Lec66_AccessModifiers {
         System.out.println(c.b);
         System.out.println(c.c);
         // System.out.println(c.d);   --> Throws Error (Since d is private and can't be accessed outside the class)
+
+       /*
+       
+        Access Modifiers       Within Class    Within Package    Outside Package by Subclass Only    Outside Package
+        ------------------------------------------------------------------------------------------------------------
+        Public                     Y                 Y                   Y                                 Y
+        Protected                  Y                 Y                   Y                                 N
+        Default                    Y                 Y                   N                                 N
+        Private                    Y                 N                   N                                 N
+
+        */
     }
 }
+
