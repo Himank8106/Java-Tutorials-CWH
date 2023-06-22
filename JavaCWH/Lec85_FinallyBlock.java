@@ -39,3 +39,4 @@ public class Lec85_FinallyBlock{
         }
     }
 }
+// We can use finally block with try block only witoout catch block.
