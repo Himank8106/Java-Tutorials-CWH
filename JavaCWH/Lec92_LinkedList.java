@@ -26,9 +26,10 @@ public class Lec92_LinkedList {
         System.out.println(l1.lastIndexOf(6));
         //l1.clear();
         l1.set(1, 566);
+
+        System.out.println(l1);
         for(int i=0; i<l1.size(); i++){
-            System.out.print(l1.get(i));
-            System.out.print(", ");
+            System.out.println(l1.get(i));
         }
     }
 }
