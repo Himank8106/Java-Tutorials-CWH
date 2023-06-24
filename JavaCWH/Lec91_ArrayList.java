@@ -48,4 +48,6 @@ It is better to use ArrayList in Java if your frequent operation is retrieval op
 1. ArrayList internally uses a dynamic array to store the elements. LinkedList internally uses a doubly linked list to store the elements.
 2. Manipulation with ArrayList is slow because it internally uses an array. If any element is removed from the array, all the bits are shifted in memory. Manipulation with LinkedList is faster than ArrayList because it uses a doubly linked list, so no bit shifting is required in memory.
 3. An ArrayList class can act as a list only because it implements List only. LinkedList class can act as a list and queue both because it implements List and Deque interfaces.
-4. ArrayList is better for storing and accessing data. LinkedList is better for manipulating data. */
+4. The insertion & deletion can be done in constant time in Linked List, so it is best to use the linked list when you need to add or remove elements frequently.
+5.Use ArrayList when you want to access the random elements frequently, as it can’t be done in a linked list in constant time.
+6. ArrayList is better for storing and accessing data. LinkedList is better for manipulating data. */
