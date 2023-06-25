@@ -13,6 +13,8 @@ public class Lec94_Hashing {
         hm.put(12, "forGeeks");
         hm.put(15, "A computer");
         hm.put(3, "Portal");
+        /* hm.add() is not a method in Hashtable class. It is a method in HashSet class. 
+        You have to use put() method in Hashtable class. */
  
         // Printing the Hashtable
         System.out.println(hm);
