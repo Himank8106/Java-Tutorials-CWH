@@ -11,6 +11,7 @@ public class Lec101_DateTimeFormatter {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern("dd.MM.yyyy");        
         DateTimeFormatter dtf2 = DateTimeFormatter.ISO_TIME;   // --> Prints time in ISO format. (Predefined format)
+        DateTimeFormatter df = DateTimeFormatter.ofPattern("dd/MM/yyyy -- E H:m a");
         // Refer docs for more predefined formats.
 
 
@@ -22,6 +23,8 @@ public class Lec101_DateTimeFormatter {
         
         String s2 = dt.format(dtf2);
         System.out.println(s2);
+
+        System.out.println(dt.format(df));
     }
 }
 
