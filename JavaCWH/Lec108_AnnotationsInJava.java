@@ -34,6 +34,7 @@ public class Lec108_AnnotationsInJava {
 
 /*
 Annotations are used to provide supplement information about a program.
+Annotations provide metadata to classes, methods, variables, and other program elements. (i.e. data about data)
 Annotations start with @ symbol.
 Annotations do not change action of a compiled program.
 Annotations help to associate metadata (information) to the program elements i.e. instance variables, constructors, methods, classes, etc.
