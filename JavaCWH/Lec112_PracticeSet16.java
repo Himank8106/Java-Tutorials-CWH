@@ -56,3 +56,5 @@ public class Lec112_PracticeSet16{
         }
     }
 }
+
+// File will automatically be created in the same directory as the java file without using fw.createNewFile() method. Because we have passed the file name in the FileWriter constructor.
