@@ -28,9 +28,9 @@ public class Lec18_SwitchCase {
         int b = sc.nextInt();
         //above layout is old switch statement layout and this is enhanced switch statement layout
         switch (b) {
-            case '1' -> System.out.println("Good Morning!!");
-            case '2' -> System.out.println("Good Afternoon!!");
-            case '3' -> System.out.println("Good Night!!");
+            case 111 -> System.out.println("Good Morning!!");
+            case 222 -> System.out.println("Good Afternoon!!");
+            case 333 -> System.out.println("Good Night!!");
             default -> System.out.println("Have a nice day.");
         }
 
